@@ -1,0 +1,5 @@
+echo "Installing SPack imager and installer..."
+sudo cp installimg /usr/bin/installimg
+sudo cp createimg /usr/bin/createimg
+sudo mkdir /mnt/program
+echo Success! Now you can use SPack!

@@ -1,0 +1,7 @@
+sudo umount /mnt/program
+sudo fallocate -l 256M program.mnt
+sudo mkfs.ext4 -j program.mnt
+sudo mount ./program.mnt /mnt/program
+sudo cp "$1" /mnt/program/exec
+sudo umount /mnt/program
+
