@@ -1,2 +1,3 @@
 # SPack
-bla bla bla нечего написать потом доки напишу короче '''installimg <файл который запихнуть в образ>'''
+'''createimg <file that will be packaged>'''
+'''installimg <image file> <executable name> <-l>(installs package in working folder)
