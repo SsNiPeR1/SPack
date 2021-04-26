@@ -4,9 +4,8 @@ then
 	sudo cp /mnt/program/exec ./$2
 	sudo umount /mnt/program
 	sudo chmod +x ./$2
-	sudo rm -rf ./$1
-	echo "Installed locally, so removed the package!"
 	exit 1
+	echo Successfully Installed Locally!
 fi
 sudo mount ./$1 /mnt/program
 sudo cp /mnt/program/exec /usr/bin/$2
